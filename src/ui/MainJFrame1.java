@@ -54,7 +54,7 @@ public class MainJFrame1 extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBackground(new java.awt.Color(0, 153, 153));
+        jPanel1.setBackground(new java.awt.Color(204, 204, 255));
 
         jLabel2.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jLabel2.setText("First Name:");
@@ -103,6 +103,7 @@ public class MainJFrame1 extends javax.swing.JFrame {
         jRadioButton3.setText("Others");
         jRadioButton3.setActionCommand("OTHERS");
 
+        jButtonSubmit.setBackground(new java.awt.Color(51, 51, 255));
         jButtonSubmit.setText("Submit");
         jButtonSubmit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
